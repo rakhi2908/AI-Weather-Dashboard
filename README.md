@@ -1,85 +1,59 @@
-# 🌦️ AI Weather Dashboard
+![Application screenshot](./public/screenshot.png)
 
-AI Weather Dashboard is a React-based web application that provides real-time weather updates and forecasts for cities worldwide. It uses external APIs to fetch live data and displays it through a clean and responsive user interface.
+<br/>
+<br/>
 
----
+With [The Weather Forecasting](https://the-weather-forecasting.netlify.app) user can search locations by city name and observe the weather for the next 5-6 days and 3 hour interval.
+<br />
+The app is developed using React.js and material-UI.
 
-## 🚀 Features
+<br/>
 
-- 🌍 Search weather by city name
-- 📡 Real-time weather data
-- 📅 6-day weather forecast
-- ⚡ Fast and responsive UI
-- 🔄 Dynamic updates using React Hooks
+## 💻 Live Demo:
 
----
+https://the-weather-forecasting.netlify.app
 
-## 🛠️ Tech Stack
+<br/>
 
-- React.js
-- JavaScript (ES6)
-- HTML & CSS
-- Material UI
-- REST APIs (OpenWeatherMap, GeoDB)
+## ✨ Getting Started
 
----
+- Make sure you already have `Node.js` and `npm` installed in your system.
+- You need an API key from [OpenWeatherMap](https://openweathermap.org/). After creating an account, [grab your key](https://home.openweathermap.org/api_keys).
+- Then, under the `src` directory, go to `api/OpenWeatherService` and replace `WEATHER_API_KEY` with your OpenWeatherMap API Key.
+  - **`api/OpenWeatherService.js`**: It contains the code related to the back-end of the application.
 
-## 📂 Project Structure
+<br/>
 
-src/
-├── components/
-├── api/
-├── utilities/
-├── assets/
-└── App.js
----
+## ⚡ Install
 
-## ⚙️ Installation & Setup
+- Clone the repository:
 
-1. Clone the repository:
-git clone https://github.com/rakhi2908/AI-Weather-Dashboard.git
+```bash
+git clone https://github.com/Amin-Awinti/the-weather-forecasting.git
 
-2. Navigate to project folder:
-cd AI-Weather-Dashboard
-   
-3. Install dependencies:
-install npm
-  
-4. Start the development server: 
- npm start 
----
+```
 
-## 🔑 API Configuration
+- Install the packages using the command `npm install`
 
-Create an account on OpenWeatherMap and replace your API key in:
-src/api/OpenWeatherService.js
+<br/>
 
----
+## 📙 Used libraries
 
-## 🎯 Learning Outcomes
+- `react-js`
+- `material-ui`
 
-- Working with REST APIs
-- Handling asynchronous data in React
-- State management using useState & useEffect
-- Building responsive UI components
+Check `packages.json` for details
 
----
+<br/>
 
-## 📌 Future Improvements
+## 📄 Todos
 
-- Add dark/light mode
-- Improve UI animations
-- Add location-based weather detection
+- [ ] Styled-components
+- [ ] Convert the entire project to TypeScript
+- [ ] Unit Testing
+- [ ] On launch, find user location weather by utilizing GeolocationAPI/GEOCODING
+- [ ] Celcius/Fahrenheit conversion
+- [ ] Dark/Light Mode
 
----
-
-## 📷 Screenshot
-
-(Add your project screenshot here)
-
----
-
-## 👨‍💻 Author
-
-rakhi patil  
-GitHub: https://github.com/rakhi2908
+<br/>
+Thank You ☺
