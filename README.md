@@ -81,5 +81,5 @@ src/api/OpenWeatherService.js
 
 ## 👨‍💻 Author
 
-Your Name  
+rakhi patil  
 GitHub: https://github.com/rakhi2908
